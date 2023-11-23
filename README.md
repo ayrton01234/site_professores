@@ -1,0 +1,78 @@
+# site_professores
+Repositorio do sistema de professor
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="baixados-removebg-preview.ico" type="image/x-icon">
+    <title>PROGEP</title>
+
+    <style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-image: url(image.png);![Uploading png-logo-ufma-colorido_resized_resized222222222.png…]()
+
+        
+        
+    }
+    .formulario {
+
+        text-align: center;
+        color: rgba(253, 253, 253, 0.979);
+        background-color: #fcaaaa7a;
+        border-radius: 20px;
+        width: 250px;
+        height: 350px;
+        
+    }
+    .btn-login {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 25px;
+        font-size: 16px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    .recuperar-senha {
+            text-decoration: none;
+            color: #759ec7;
+            font-size: 14px;
+            margin-top: 10px;
+            display: block;
+    }
+    .borda{
+        border-radius: 7px;
+        width: 160px;
+        height: 19px;
+        
+
+
+    }
+
+    </style>
+</head>
+<body>
+    
+    <div class="formulario">
+
+    <h2>Entrar</h2>
+    <form action="busca.html" method="post">
+        Email: <input class="borda" type="email" name="email"><br><br>
+        Senha: <input class="borda" type="password" name="senha"><br><br>
+      <input class="btn-login" type="submit" value="Entrar"><br>
+        <br>
+        <P>Sistema de cadastro e consulta de professor vonlutario</P>
+        <p>esqueceu a senha?</p>
+        <a class="recuperar-senha" href="recuperar senha.html"> <u>Acesse aqui.</u></a>
+        
+    </div>
+    
+    </form>
+</body>
+</html>
