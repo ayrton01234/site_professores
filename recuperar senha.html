@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="baixados-removebg-preview.ico" type="image/x-icon">
+    <title>Recuperar Senha</title>
+    <style>
+        .format {
+            text-align: center;
+            
+            color: rgb(24, 25, 26);
+        }
+        .borda{
+
+            background-color: rgb(102, 47, 47);
+            width: auto;
+            height: 120px;
+        }
+    </style>
+
+</head>
+<body class="format">
+    <div class="borda">
+    <img src="png-logo-ufma-colorido_resized_resized222222222.png">
+
+
+    </div>
+    <h2>Recuperar Senha</h2>
+    <p>Informe o seu endereço de e-mail associado à sua conta:</p>
+    <form action="processar_recuperacao_senha.php" method="post">
+        <input type="email" name="email" required>
+        <input type="submit" value="Enviar"><br><br>
+        <p>Informe o codigo que foi para seu E-mail</p>
+        <input type="niver" name="niver" required>
+        <input type="submit" value="Enviar">
+    
+    </form>
+</body>
+</html>
